@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E2723"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/pp25158" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/photoMain"
+        android:paddingBottom="16dp"
+        android:paddingLeft="72dp"
+        android:text="@string/activity_main_businessName_text"
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/photoMain"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/LineItemStyle"
+            android:drawableLeft="@drawable/icon_phone24dp"
+            android:text="@string/activity_main_phoneNumber_text" />
+
+        <TextView
+            style="@style/LineItemStyle"
+            android:drawableLeft="@drawable/icon_website24dp"
+            android:text="@string/activity_main_website_text" />
+
+        <TextView
+            style="@style/LineItemStyle"
+            android:drawableLeft="@drawable/icon_location24dp"
+            android:text="@string/activity_main_address_text" />
+
+        <TextView
+            style="@style/LineItemStyle"
+            android:drawableLeft="@drawable/icon_hours24dp"
+            android:text="@string/activity_main_hours_text" />
+
+        <TextView
+            style="@style/LineItemStyle"
+            android:drawableLeft="@drawable/icon_description24dp"
+            android:text="@string/activity_main_description_text" />
+
+    </LinearLayout>
+
+</RelativeLayout>

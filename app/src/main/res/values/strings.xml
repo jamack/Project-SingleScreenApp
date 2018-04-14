@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project-SingleScreenApp-ver03</string>
+    <string name="activity_main_businessName_text">Crema</string>
+    <string name="activity_main_phoneNumber_text">(555) 123-4567</string>
+    <string name="activity_main_website_text">www.cremacoffee.biz</string>
+    <string name="activity_main_address_text">608 Latte Lane, Madison, WI</string>
+    <string name="activity_main_description_text">Warm, relaxing coffee house. Also serving up food, wine/beer, and live music.</string>
+    <string name="activity_main_hours_text">M - F: 6am - 9pm &#10;Sat and Sun: 6am - 11pm</string>
+</resources>
